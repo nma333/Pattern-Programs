@@ -1,0 +1,37 @@
+Write the code to get the required pattern.
+
+          ******
+          *****
+          ****
+          ***
+          **
+          *
+          
+ //C code to print the above pattern.
+ 
+ #include<stdio.h>
+
+int main(){
+
+    pattern_3();
+    return 0;
+}
+
+int pattern_3(){
+    for(int i=1;i<=6;i++){
+        for(int j=6;j>=i;j--){
+            printf("*");
+        }
+        printf("\n");
+    }
+
+}
+
+
+OUTPUT:
+          ******
+          *****
+          ****
+          ***
+          **
+          *
